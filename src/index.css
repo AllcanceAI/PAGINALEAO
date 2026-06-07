@@ -167,22 +167,22 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .section-padding {
-    padding: 3rem 1rem;
+    padding: 2.5rem 1rem;
   }
   .title-xl {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .title-lg {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .title-md {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .title-sm {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .text-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .grid-cols-2, .grid-cols-3, .grid-cols-4 {
     grid-template-columns: 1fr !important;

@@ -13,12 +13,12 @@ const Hero = () => {
 
   return (
     <section className="section-padding" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', background: 'radial-gradient(circle at 50% 0%, #1a1a1a 0%, #050505 70%)' }}>
-      <div className="container flex hero-container gap-8 items-center">
+      <div className="container" style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', alignItems: 'center' }}>
         <motion.div 
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          style={{ flex: 1 }}
+          style={{ flex: '1 1 300px', minWidth: 0 }}
         >
           <div className="mb-4">
             <span style={{ letterSpacing: '4px', fontSize: '0.9rem', color: '#888', textTransform: 'uppercase' }}>Trader Profissional</span>
@@ -68,9 +68,9 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          style={{ flex: 1, display: 'flex', justifyContent: 'center', width: '100%' }}
+          style={{ flex: '1 1 280px', display: 'flex', justifyContent: 'center', width: '100%' }}
         >
-          <div style={{ position: 'relative', width: '100%', maxWidth: '450px', minHeight: '500px' }}>
+          <div style={{ position: 'relative', width: '100%', maxWidth: '420px', minHeight: '400px' }}>
             <img 
               src="/trader-main.jpg" 
               alt="Molina Trader" 
