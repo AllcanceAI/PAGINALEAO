@@ -57,7 +57,7 @@ const Pricing = () => {
               <div style={{ fontSize: '0.9rem', color: '#888', marginBottom: '2rem' }}>ou R$ 997,00 à vista</div>
               
               <motion.a 
-                href="COLOQUE_AQUI_O_LINK_DO_SEU_WHATSAPP"
+                href="https://wa.me/5518991494782"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"

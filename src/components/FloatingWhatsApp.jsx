@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const FloatingWhatsApp = () => {
   // Substitua o link abaixo pelo link real do seu grupo do WhatsApp
-  const whatsappLink = "COLOQUE_AQUI_O_LINK_DO_SEU_WHATSAPP";
+  const whatsappLink = "https://wa.me/5518991494782";
 
   return (
     <motion.a
